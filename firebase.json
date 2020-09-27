@@ -1,0 +1,15 @@
+{
+    "hosting": {
+        "site": "covid-tracker-64364",
+        "public": "build",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [{
+            "source": "**",
+            "destination": "/index.html"
+        }]
+    }
+}
